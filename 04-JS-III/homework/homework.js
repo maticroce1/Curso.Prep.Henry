@@ -3,6 +3,7 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
+  return array [0];
 }
 
 
@@ -15,6 +16,7 @@ function devolverUltimoElemento(array) {
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
+  return array.lenght;
 }
 
 
@@ -23,6 +25,10 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  var array 
+  for (m = 1 ; m < array.lenght ; m++){
+
+  }
 }
 
 
@@ -97,7 +103,10 @@ function diaDeLaSemana(numeroDeDia) {
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
-  
+  if ( numeroDeDia === 1 ||  numeroDeDia ===7){
+    return "Es fin de semana";
+  }
+  return "Es dia laboral";
 } 
 
 
